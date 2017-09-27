@@ -2,7 +2,7 @@ name := "directoryWatcher"
 
 version := "0.1"
 
-scalaVersion := "2.12.1"
+scalaVersion := "2.12.3"
 
 lazy val akkaVersion = "2.5.3"
 
