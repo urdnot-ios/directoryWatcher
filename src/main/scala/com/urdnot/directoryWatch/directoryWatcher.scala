@@ -25,6 +25,7 @@ object directoryWatcher extends App {
 
   files.foreach(x => println("path: " + x._1 + "\tmod : " + x._2 + "\tlen : " + x._3))
 
+  println("new")
 
   def getListOfFiles(hdfsUser: String,
                      hdfsKeyTab: String,
